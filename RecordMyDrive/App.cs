@@ -7,12 +7,14 @@ namespace RecordMyDrive
 	{
 		public static Page GetMainPage ()
 		{	
-			return new ContentPage { 
-				Content = new Label {
+			return new ContentPage 
+			{ 
+				Content = new Label 
+				{
 					Text = "Hello, Forms!",
 					VerticalOptions = LayoutOptions.CenterAndExpand,
 					HorizontalOptions = LayoutOptions.CenterAndExpand,
-				},
+				}
 			};
 		}
 	}
