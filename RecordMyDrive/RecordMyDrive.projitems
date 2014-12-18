@@ -26,7 +26,6 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\layouts\Main.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\values\Strings.xml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\layouts\MainWrapper.xaml" />
   </ItemGroup>
 </Project>

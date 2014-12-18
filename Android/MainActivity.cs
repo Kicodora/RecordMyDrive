@@ -24,6 +24,11 @@ namespace RecordMyDrive.Android
 
 			SetPage (App.GetMainPage ());
 		}
+
+		public string returnResources(int id)
+		{
+			return Resources.GetString (id);
+		}
 	}
 }
 

@@ -1,4 +1,6 @@
-﻿﻿using System;
+﻿using RecordMyDrive.Android;
+using Android.Content;
+using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
 
@@ -8,6 +10,8 @@ namespace RecordMyDrive
 	{	
 		public Main ()
 		{
+			//this.Title = MainActivity. returnResources (Resource.String.app_name);
+			this.Title = "LOG";
 			InitializeComponent ();
 		}
 	}
