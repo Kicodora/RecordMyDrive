@@ -10,11 +10,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Resources\layouts\MainWrapper.xaml.cs">
-      <DependentUpon>MainWrapper.xaml</DependentUpon>
-    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Resources\layouts\Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\layouts\MainWrapper.xaml.cs">
+      <DependentUpon>MainWrapper.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -23,12 +23,10 @@
     <Folder Include="$(MSBuildThisFileDirectory)Resources\values\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\layouts\MainWrapper.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\layouts\Main.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\values\Strings.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\layouts\MainWrapper.xaml" />
   </ItemGroup>
 </Project>

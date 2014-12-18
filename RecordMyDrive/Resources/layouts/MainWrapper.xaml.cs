@@ -1,10 +1,10 @@
-﻿﻿using System;
+﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace RecordMyDrive
 {	
-	public partial class MainWrapper : ContentPage
+	public partial class MainWrapper : TabbedPage
 	{	
 		public MainWrapper ()
 		{
@@ -12,4 +12,3 @@ namespace RecordMyDrive
 		}
 	}
 }
-

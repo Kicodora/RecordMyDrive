@@ -48,7 +48,7 @@ namespace RecordMyDrive
 
 		public static Page GetMainPage ()
 		{
-			return new TabbedPage { Children = { mainPage, mainPage } };
+			return new MainWrapper { Children = { mainPage, mainPage } };
 		}
 	}
 }
