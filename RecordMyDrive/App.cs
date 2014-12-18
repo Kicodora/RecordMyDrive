@@ -5,13 +5,13 @@ namespace RecordMyDrive
 {
 	public class App
 	{	
-		static ContentPage mainPage = new ContentPage {
+		/*static ContentPage mainPage = new ContentPage {
 			Title = "Record My Drive",
 			/*Content = new Label {
 				Text = "Hello, Forms!",
 				VerticalOptions = LayoutOptions.CenterAndExpand,
 				HorizontalOptions = LayoutOptions.CenterAndExpand
-			}*/
+			}
 			Content = new StackLayout {
 				Spacing = 20,
 				Padding = 50,
@@ -43,12 +43,12 @@ namespace RecordMyDrive
 					}
 				}
 			}
-		};
-
+		};*/
+		static ContentPage mainPage = new Main();
 
 		public static Page GetMainPage ()
 		{
-			return new TabbedPage { Children = { mainPage, profilePage } };
+			return new TabbedPage { Children = { mainPage, mainPage } };
 		}
 	}
 }
